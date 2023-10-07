@@ -48,3 +48,8 @@ num_float = float(num_int)
 print("float:", num_float)   # 10.0
 num_string = str(num_float)
 print("string:", num_string) # "10"
+
+# cambio de dato por reasignacion
+int_second_var = 5
+int_second_var = "now is a string"
+# las vairables pueden cambiar de tipo de dato, esto debido a que python no es un lenguaje de tipado fuerte
