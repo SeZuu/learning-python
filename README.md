@@ -1,2 +1,2 @@
-# learning-python
+# learning-python 🐍
 learning the basics of this language
