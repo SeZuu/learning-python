@@ -42,7 +42,7 @@ month = "October"
 formated_str = "Today is %d of %s" %(day, month)
 print(formated_str)
 
-# new formatting style .format()
+# new formatting style -> .format()
 # print('{} / {} = {:.2f}'.format(a, b, a / b)) # limits it to two digits after decimal
 new_formated_str = "Today is {} of {}".format(day, month)
 print(new_formated_str)
@@ -54,3 +54,34 @@ print("{} + {} = {}".format(a, b, a + b))
 # string interpolation -> f-string
 print(f"{a} + {b} = {a + b}")
 print(f"today is {day} of {month}")
+
+# unpacking char's
+message = "Python"
+a, b, c, d, e, f = message # debe tener una variable para cada letra
+print(a + c + e)
+print(message[0] + message[2] + message[4])
+
+# slicing strings
+print(message[0:2]) # empieza en el index 0 hasta el 2 pero no incluye el 2
+
+# reverse
+message_reverse = message[::-1]
+print(message_reverse)
+
+# string methods
+print(message.capitalize())     # vuelve mayuscula la primera letra
+print(message.count("y"))       # cuenta cuantos hay
+print(message.endswith("on"))   # verifica si termina con ..
+print(message.startswith("Py")) # verifica si empieza con ..
+
+#message = "lenguage\tPython"
+
+print(message.expandtabs(20))  # cambia el valor del tab
+print(message.find("y"))       # devuelve el index del primer valor, si no devuelve -1
+print(message.rfind("n"))      # devuelve el index del ultimo valor, si no devuelve -1
+print(message.upper())         # vuelve todo mayuscula
+print(message.lower())         # vuelve todo minuscula
+print(message.isupper())       # verifica si todo esta en mayuscula
+print(message.upper().isupper())
+print(message.islower())       # verifica si todo esta en minuscula
+print(message.lower().islower())
