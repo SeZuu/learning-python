@@ -115,8 +115,11 @@ print(lst) # ['again', 'lists', 'python', 'hello']
 # Sorting list items
 # sort() -> ordena la lista y sobrescribe la misma
 lst.sort()               # ascending in alphabetical order
+
 print(lst) # ['again', 'hello', 'lists', 'python']
-lst.sort(reverse = True) #descengind in alphabetical order
+
+lst.sort(reverse = True) # descengind in alphabetical order
+
 print(lst) # ['python', 'lists', 'hello', 'again']
 
 # sorted() -> ordena la lista pero no se guarda
