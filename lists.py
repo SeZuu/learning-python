@@ -5,7 +5,7 @@ lst = list()
 lst = []
 
 empty_list = []   # lista vacia
-print(empty_list) # 0
+print(empty_list) # []
 
 # lists examples
 muscle_cars = ["camaro", "mustang", "challenger", "charger"]
