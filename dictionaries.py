@@ -103,4 +103,4 @@ print(dct_copy) # {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
 
 # getting dictionary values as a list
 values = dct.values()
-print(values)
+print(values) # dict_values(['value1', 'value2', 'value3'])
